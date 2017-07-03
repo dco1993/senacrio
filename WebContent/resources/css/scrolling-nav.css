@@ -1,0 +1,163 @@
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+
+}
+
+.home-section {
+   /*height: 100%;*/
+    padding-top: 120px;
+    text-align: center;
+    background: ;
+    margin-bottom: 10%;
+
+}
+
+/* INICIO CSS SOBRE */
+.sobre-section {
+    /*height: 100%;*/
+    padding-top:80px;
+    text-align: center;
+    background:;
+}
+.alinhamento-sobre{
+    margin-bottom:12%;
+}
+.background--titulo{
+    /*background-color: #242323;*/
+    border-radius: 10px;
+}
+.titulo-barbearia-logo{
+    color: #242323;
+
+}
+.sobre-titulo{
+    margin-bottom:7%;
+
+}
+.container-sobre{
+    background-color:rgb(41,131,27);
+    margin-top: 1%;
+    color: #fff;
+
+
+}
+
+
+/* FIM CSS SOBRE */
+
+/* INICIO CSS EQUIPE */
+.equipe-section {
+    background-color: #242323;
+    padding-top: 75px;
+    text-align: center;
+    background-color: ;
+}
+#equipe{
+
+}
+.equipe-titulo{
+    color: #fff;
+    margin-bottom:7%;
+}
+
+.thumbnail-img-equipe{
+    margin-bottom:15%;
+}
+.img-nossa-equipe{
+    margin-bottom: 4%;
+}
+/* FIM CSS EQUIPE */
+
+/* INICIO DO CSS GALERIA */
+.galeria-section {
+    height: 100%;
+    padding-top:  75px;
+    text-align: center;
+    background: ;
+}
+.background-galeria{
+
+
+}
+/* FIM DO CSS GALERIA*/
+
+
+/* INICIO DO CSS SERVIÇOS */
+.servicos-section {
+    /*height: 100%;*/
+    padding-top:80px;
+    text-align: center;
+    background-color: ;
+    margin-bottom: 5%;
+
+    background-color:#4c2f27;
+    color: #fff;
+}
+.img-servicos{
+    margin-bottom:4%;
+    margin-top: 2%;
+}
+/* FIM DO CSS SERVIÇOS */
+
+/* INICIO DO CSS DEPOIMENTOS*/
+.depoimentos-section {
+    height: 100%;
+    padding-top:  75px;
+    text-align: center;
+    background: ;
+}
+/* FIM DO CSS GALERIA*/
+
+
+/* INICIO DO CSS CONTATO */
+.contato-section {
+   /* height: 100%;*/
+    padding-top:  70px;
+    text-align: center;
+    color: #fff;
+
+
+}
+.container-contato{
+
+
+}
+.contorno-input{
+    margin-bottom:5%;
+     background-color:rgba(192,192,192,.4);
+     padding: 3%;
+     border-radius: 10px;
+
+}
+.info-contato{
+    color: #fff;
+}
+.fale-conosco{
+   background-color:rgba(192,192,192,.4);
+    padding: 3%;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    color: #fff;
+}
+/* FIM DO CSS CONTATO */
