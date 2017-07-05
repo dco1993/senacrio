@@ -34,6 +34,34 @@
 				<button type="submit" class="btn btn-danger">Logar!</button>
     		</form>
     	</div>
+    	
+    	<div class="row">
+    	
+    		<form class="col-md-4 col-md-offset-4" action="comentario" method="post">
+	    		<div class="form-group">
+	    			<label for="inome">Nome</label>
+	    			<input type="text" name="nome" id="inome" placeholder="Nome" required>
+	    		</div>
+	    		<div class="form-group">
+	    			<label for="icomentario">Comentário</label>
+	    			<input type="text" name="comentario" id="icomentario" required>
+    			</div>
+    			<div class="form-group">
+	    			<label for="ibairro">Bairro</label>
+	    			<input type="text" name="bairro" id="ibairro" required>
+    			</div>
+    			<div class="form-group">
+	    			<label for="iav">Avaliação</label>
+	    			<input type="radio" aria-label="...">
+	    			<input type="radio" aria-label="...">
+	    			<input type="radio" aria-label="...">
+	    			<input type="radio" aria-label="...">
+	    			<input type="radio" aria-label="...">
+    			</div>
+				<button type="submit" class="btn btn-danger">Comentar!</button>
+    		</form>
+    	
+    	</div>
     </div>	
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

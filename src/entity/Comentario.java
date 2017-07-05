@@ -9,32 +9,40 @@ public class Comentario implements Serializable {
 	private String nome;
 	private String comentario;
 	private String bairro;
-	private int nota;
+	private Integer nota;
+	private String ativo;
 	
 	public Comentario() {
 		
 	}
 	
-	public Comentario(String nome, String comentario, String 	bairro, int 	nota) {
+	public Comentario(String nome, String comentario, String bairro, Integer nota, String ativo) {
 		this.nome=nome;
 		this.comentario=comentario;
 		this.bairro=bairro;
 		this.nota=nota;
-		
+		this.ativo=ativo;
 	}
 	
-	public Comentario(Integer id, String nome, String comentario, String 	bairro, int nota) {
+	public Comentario(String nome, String comentario, String bairro, Integer nota) {
+		this.nome=nome;
+		this.comentario=comentario;
+		this.bairro=bairro;
+		this.nota=nota;
+	}
+	
+	public Comentario(Integer id, String nome, String comentario, String bairro, Integer nota, String ativo) {
 		this.id=id;
 		this.nome=nome;
 		this.comentario=comentario;
 		this.bairro=bairro;
 		this.nota=nota;
-		
+		this.ativo=ativo;
 	}
 	
 	@Override
 	public String toString() {
-		return	"Id: " + id + "\nNome: " + nome + "\nComentario: " + comentario + "\nBairro: : " + bairro + "\nNota: " + nota;
+		return	"Id: " + id + "\nNome: " + nome + "\nComentario: " + comentario + "\nBairro: : " + bairro + "\nNota: " + nota + "\nAtivo: " + ativo;
  	}
 
 	public Integer getId() {
@@ -73,8 +81,16 @@ public class Comentario implements Serializable {
 		return nota;
 	}
 
-	public void setNota(int nota) {
+	public void setNota(Integer nota) {
 		this.nota = nota;
+	}
+	
+	public String getAtivo() {
+		return ativo;
+	}
+	
+	public void setAtivo(String ativo) {
+		this.ativo = ativo;
 	}
 
 	@Override
@@ -101,7 +117,6 @@ public class Comentario implements Serializable {
 			return false;
 		return true;
 	}
-	
 	
 	
 }
